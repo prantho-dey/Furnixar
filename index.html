@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo Page - Furnixar</title>
+    <link rel="icon" href="./img/favicon.png" type="image/gif" sizes="18x18">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body class="dark:bg-title">
+    <label
+        class="switcher z-20 w-12 sm:w-[60px] h-12 sm:h-[60px] fixed bottom-[10px] md:bottom-5 left-[10px] md:left-5 bg-title dark:bg-[#2C3C4B] rounded-xl flex items-center justify-center cursor-pointer">
+        <input class="hidden" type="checkbox">
+        <img class="moon p-3" src="./img/icon/moon.svg" alt="moon">
+        <img class="sun p-3" src="./img/icon/sun.svg" alt="sun">
+    </label>
+    <!-- Header End -->
+
+    <!-- Header Start -->
+    <div class="py-5 md:py-[30px]">
+        <div class="container">
+            <div class="flex items-center justify-center sm:justify-between gap-5 flex-wrap max-w-1366 mx-auto">
+                <ul
+                    class="flex items-center gap-4 md:gap-10 text-lg md:text-xl leading-none text-title dark:text-white">
+                    <li class="duration-300 hover:text-primary"><a href="#demos">Demos</a></li>
+                    <li class="duration-300 hover:text-primary"><a href="#pages">Pages</a></li>
+                    <li class="duration-300 hover:text-primary"><a href="#features">Features</a></li>
+                </ul>
+                <a target="_blank" href="https://electronthemes.com/products/furnixar-html" class="btn btn-solid"
+                    data-text="Purchase Now">Purchase Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Banner Area Start -->
+    <div class="pt-16 sm:pt-24 md:pt-[333px] pb-24 lg:pb-[274px] relative z-[1] demo-banner-area overflow-hidden">
+        <img class="thumb-shape absolute transform -rotate-[30deg] -left-[80px] top-[20%] w-[40%] lg:w-auto hidden sm:block"
+            src="./img/demo-page/banner-shape-01.png" alt="home-page">
+
+        <img class="thumb-shape absolute transform -rotate-[30deg] left-[23%] top-[10%] hidden xl:block"
+            src="./img/demo-page/banner-shape-02.png" alt="home-page">
+
+        <img class="thumb-shape absolute transform -rotate-[30deg] bottom-[11%] left-0 w-[40%] lg:w-auto hidden lg:block"
+            src="./img/demo-page/banner-shape-03.png" alt="home-page">
+
+        <img class="thumb-shape absolute transform rotate-[30deg] -right-[80px] top-[15%] w-[40%] lg:w-auto hidden sm:block"
+            src="./img/demo-page/banner-shape-05.png" alt="home-page">
+
+        <img class="thumb-shape absolute transform rotate-[30deg] right-[24%] top-[12%] hidden xl:block"
+            src="./img/demo-page/banner-shape-06.png" alt="home-page">
+
+        <img class="thumb-shape absolute transform rotate-[30deg] bottom-[11%] right-0 w-[40%] lg:w-auto hidden lg:block"
+            src="./img/demo-page/banner-shape-06.png" alt="home-page">
+
+        <!-- circle shape -->
+        <img class="absolute dark:opacity-20 bottom-[28%] left-[12%] -z-[2] w-[20%] hidden sm:block"
+            src="./img/demo-page/banner-shape-07.png" alt="home-page">
+        <img class="absolute dark:opacity-20 top-[2%] left-[47%] -z-[2] hidden sm:block"
+            src="./img/demo-page/banner-shape-08.png" alt="home-page">
+        <img class="absolute dark:opacity-20 bottom-0 left-[45%] -z-[2] w-[9%]"
+            src="./img/demo-page/banner-shape-09.png" alt="home-page">
+        <img class="absolute dark:opacity-20 right-0 top-0 -z-[2] w-[30%] hidden lg:block"
+            src="./img/demo-page/banner-shape-10.png" alt="home-page">
+
+        <div class="container">
+            <div class="text-center">
+                <div data-aos="fade-up">
+                    <svg class="w-[250px] lg:w-[390px] mx-auto fill-current text-title dark:text-white"
+                        viewBox="0 0 394 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M75.0742 7.72266H113.015V18.9079H87.0339V32.2237H109.441V43.4089H87.0339V66.5783H75.0742V7.72266Z" />
+                        <path
+                            d="M132.258 68.3098C128.959 68.3098 126.347 67.3776 124.148 65.3803C121.948 63.3829 120.848 60.8529 120.711 57.7903V31.6914H132.258V53.6624C132.396 55.2603 132.808 56.4587 133.495 57.3908C134.183 58.3229 135.42 58.7224 137.07 58.7224C138.719 58.7224 140.231 58.1898 141.469 56.9914C142.706 55.9261 143.668 54.3282 144.355 52.464C145.043 50.4666 145.455 48.3361 145.455 45.8061V31.6914H157.002V66.5787H146.555L145.593 60.1871L145.73 60.8529C144.905 62.3177 143.805 63.5161 142.568 64.7145C141.331 65.7798 139.819 66.7119 138.032 67.2445C136.245 67.9103 134.32 68.3098 132.258 68.3098Z" />
+                        <path
+                            d="M179.137 31.6904L180.237 41.2777L179.962 39.813C181.062 37.6825 182.437 35.9514 184.224 34.4867C186.011 33.022 187.798 31.8235 189.585 31.0246C191.372 30.2256 192.747 29.8262 193.709 29.8262L193.159 41.0114C190.41 40.7451 188.21 41.1446 186.286 42.343C184.361 43.5414 182.849 45.0061 181.887 47.0035C180.787 48.8677 180.375 50.8651 180.375 52.8624V66.5777H168.965V31.6904H179.137Z" />
+                        <path
+                            d="M213.092 31.692L214.054 37.9504L213.917 37.4178C215.154 35.2872 216.941 33.423 219.278 32.0915C221.615 30.7599 224.364 29.9609 227.801 29.9609C231.238 29.9609 233.987 30.893 236.324 32.8904C238.661 34.7546 239.761 37.2846 239.898 40.3472V66.5793H228.351V44.6083C228.351 43.0104 227.801 41.812 226.976 40.8799C226.151 39.9478 224.914 39.4151 222.99 39.4151C221.203 39.4151 219.69 39.9478 218.316 41.1462C216.941 42.2114 215.979 43.8093 215.292 45.6735C214.604 47.5377 214.192 49.8014 214.192 52.3314V66.5793H202.645V31.692H213.092Z" />
+                        <path d="M262.305 31.6914H250.758V66.5787H262.305V31.6914Z" />
+                        <path
+                            d="M291.311 42.7435L298.185 31.6914H309.595L295.298 50.8661L291.311 42.7435ZM311.657 66.5787H297.772L270.004 31.6914H284.026L311.657 66.5787ZM289.799 55.3935L281.689 66.5787H270.279L284.575 47.9366L289.799 55.3935Z" />
+                        <path
+                            d="M333.512 67.5098C330.213 67.5098 327.051 66.844 324.302 65.6456C321.552 64.314 319.49 62.3166 317.841 59.5203C316.191 56.8572 315.504 53.3951 315.504 49.134C315.504 45.1393 316.329 41.8104 317.978 38.8809C319.628 35.9514 321.827 33.8209 324.439 32.223C327.189 30.6251 329.938 29.8262 332.962 29.8262C336.536 29.8262 339.286 30.3588 341.073 31.5572C342.997 32.6225 344.51 33.9541 345.747 35.2856L345.197 36.6172L346.297 31.5572H357.019V66.5777H345.472V58.9877L346.434 61.3845C346.297 61.3845 346.022 61.6508 345.472 62.3166C344.922 62.8493 344.097 63.6482 342.997 64.4472C341.898 65.2461 340.66 65.9119 339.011 66.5777C337.499 67.2435 335.712 67.5098 333.512 67.5098ZM336.811 58.4551C338.186 58.4551 339.423 58.3219 340.523 57.9224C341.623 57.523 342.585 56.8572 343.41 56.1914C344.235 55.3924 344.922 54.4603 345.609 53.2619V44.7398C345.197 43.5414 344.51 42.6093 343.685 41.8104C342.86 41.0114 341.76 40.3456 340.523 39.9462C339.286 39.4135 337.911 39.2804 336.536 39.2804C334.887 39.2804 333.375 39.6798 331.863 40.6119C330.488 41.4109 329.388 42.4761 328.563 43.9409C327.739 45.4056 327.326 47.0035 327.326 48.8677C327.326 50.7319 327.739 52.463 328.701 53.9277C329.526 55.3924 330.763 56.5909 332.137 57.3898C333.512 58.0556 335.162 58.4551 336.811 58.4551Z" />
+                        <path
+                            d="M379.426 31.6904L380.526 41.2777L380.251 39.813C381.351 37.6825 382.726 35.9514 384.513 34.4867C386.3 33.022 388.087 31.8235 389.874 31.0246C391.661 30.2256 393.036 29.8262 393.998 29.8262L393.448 41.0114C390.699 40.7451 388.499 41.1446 386.575 42.343C384.65 43.5414 383.138 45.0061 382.176 47.0035C381.076 48.8677 380.664 50.8651 380.664 52.8624V66.5777H369.254V31.6904H379.426Z" />
+                        <path
+                            d="M256.533 24.8995C259.873 24.8995 262.581 22.2764 262.581 19.0406C262.581 15.8048 259.873 13.1816 256.533 13.1816C253.192 13.1816 250.484 15.8048 250.484 19.0406C250.484 22.2764 253.192 24.8995 256.533 24.8995Z"
+                            fill="#BB976D" />
+                        <path
+                            d="M59.5401 6.39157C59.5401 5.99209 59.5401 5.59262 59.4026 5.32631C59.4026 4.92683 59.2651 4.66052 59.2651 4.26104C59.2651 4.12789 59.1277 3.99473 59.1277 3.86157C59.1277 3.72841 58.9902 3.59526 58.9902 3.4621C58.8527 3.19578 58.8527 2.92947 58.7153 2.66315C58.3029 1.73105 57.753 1.06526 57.4781 0.665788C57.3406 0.399473 57.2031 0.266315 57.0657 0.266315C56.9282 0 56.9282 0 56.9282 0C56.9282 0 56.7907 0.266315 56.6533 0.798946C56.5158 1.19842 56.2409 1.86421 55.8285 2.66315C55.691 2.79631 55.5535 3.06263 55.5535 3.19578C55.5535 3.32894 55.4161 3.32894 55.4161 3.4621C55.4161 3.59526 55.2786 3.59526 55.1411 3.72841C55.0037 3.86157 54.8662 4.12789 54.7287 4.26104C54.5913 4.3942 54.4538 4.66052 54.1789 4.79367C53.4915 5.59262 52.6667 6.25841 51.7044 7.05735C50.7422 7.8563 49.6424 8.52209 48.4052 9.32103C48.1303 9.45419 47.7179 9.72051 47.443 9.85367C47.168 9.98682 46.7556 10.2531 46.4807 10.3863C46.2057 10.5195 45.7933 10.7858 45.5184 10.9189C45.2435 11.0521 44.8311 11.1852 44.5561 11.4516L44.0063 11.7179C43.8688 11.9842 43.5939 12.1173 43.4564 12.2505L43.1815 12.3837H43.044C43.044 12.3837 43.1815 12.2505 43.1815 12.3837L43.044 12.5168C42.9065 12.65 42.6316 12.65 42.4941 12.7831C41.6693 13.1826 40.8445 13.5821 40.1572 13.9816C38.5076 14.7805 36.858 15.7126 35.0709 16.6447C34.521 17.0442 33.8337 17.3105 33.2838 17.71C32.1841 18.3758 30.9469 19.1747 29.8471 19.9736C28.0601 21.1721 26.4104 22.5036 24.8983 24.1015C24.6234 24.3678 24.4859 24.501 24.211 24.7673L23.936 25.0336C23.7986 25.1668 23.6611 25.3 23.6611 25.3C23.5236 25.4331 23.3862 25.6994 23.2487 25.8326L22.9738 26.0989L22.8363 26.2321L22.6988 26.3652C22.0115 27.1642 21.4616 28.0963 20.9117 28.8952C20.7743 29.1615 20.6368 29.2947 20.4993 29.561C20.3619 29.8273 20.0869 30.2268 19.9495 30.4931C19.812 30.7594 19.6745 31.1589 19.5371 31.4252C19.1247 32.3573 18.8497 33.1563 18.5748 33.9552C18.0249 35.6862 17.75 37.151 17.75 38.6157C17.75 39.9473 17.75 41.2789 18.0249 42.211C18.0249 42.4773 18.1624 42.7436 18.1624 42.8768C18.1624 43.1431 18.2999 43.2762 18.2999 43.5425C18.4373 43.942 18.5748 44.2083 18.5748 44.4747C18.5748 44.6078 18.5748 44.6078 18.7123 44.741C18.8497 45.1404 18.9872 45.2736 18.9872 45.2736C18.9872 45.2736 19.1247 45.1404 19.2621 44.8741C19.2621 44.741 19.3996 44.741 19.3996 44.6078C19.6745 44.2083 20.0869 43.8089 20.4993 43.2762C20.6368 43.1431 20.6368 43.1431 20.7743 43.0099C21.0492 42.6104 21.3242 42.3441 21.7366 41.9447C22.149 41.5452 22.4239 41.1457 22.8363 40.7462C23.6611 39.9473 24.6234 39.1483 25.5856 38.2162C26.5479 37.4173 27.7851 36.6183 28.8849 35.8194C29.1598 35.6862 29.4347 35.4199 29.8471 35.2868C30.1221 35.1536 30.5345 34.8873 30.8094 34.7541C30.9469 34.621 30.6719 34.8873 30.6719 34.8873H30.8094L30.9469 34.7541L31.2218 34.621C31.3593 34.4878 31.6342 34.3547 31.7717 34.2215C31.9091 34.0884 31.9091 34.0884 32.0466 34.0884L32.3215 33.9552C32.459 33.822 32.5965 33.822 32.7339 33.6889C34.1086 33.0231 35.6208 32.2241 37.2704 31.4252C38.92 30.6263 40.5696 29.6942 42.2192 28.762C44.0063 27.8299 45.6559 26.7647 47.443 25.5663C47.5804 25.4331 47.8554 25.3 47.9928 25.1668C48.6802 24.6342 49.3675 24.2347 49.9174 23.7021C50.1923 23.5689 50.3298 23.4357 50.6047 23.1694L50.7422 23.0363C50.6047 23.0363 50.8796 22.9031 50.8796 22.9031L51.1546 22.6368C51.292 22.5036 51.567 22.3705 51.7044 22.1042C51.8419 21.971 52.1168 21.7047 52.2543 21.5715C52.6667 21.1721 53.0791 20.7726 53.4915 20.3731L53.629 20.24C53.9039 19.8405 54.3163 19.5742 54.5913 19.1747C54.8662 18.7752 55.2786 18.3758 55.5535 17.9763C55.8285 17.5768 56.1034 17.1773 56.5158 16.7779C57.6155 15.0468 58.5778 13.3158 59.1277 11.5847C59.4026 9.58735 59.6775 7.8563 59.5401 6.39157Z" />
+                        <path
+                            d="M55.0028 30.4935C55.0028 30.094 54.8653 29.8277 54.8653 29.4282C54.8653 29.295 54.7279 29.1619 54.7279 29.0287C54.7279 28.8956 54.5904 28.7624 54.5904 28.6293C54.4529 28.3629 54.4529 28.0966 54.3155 27.8303C54.0405 27.1645 53.6281 26.6319 53.3532 26.2324L53.0783 26.4987C52.9408 26.6319 52.6659 26.7651 52.5284 26.8982C52.2535 27.1645 51.8411 27.4308 51.4287 27.6972C51.4287 27.8303 51.2912 27.8303 51.2912 27.9635C51.1537 28.0966 51.0163 28.3629 51.0163 28.4961C51.0163 28.6293 50.8788 28.6293 50.8788 28.7624C50.8788 28.8956 50.7413 28.8956 50.6039 29.0287C50.6039 29.295 50.3289 29.4282 50.3289 29.6945C50.1915 29.8277 50.054 30.094 49.7791 30.2272C49.0917 31.0261 48.2669 31.6919 47.3046 32.4908C46.3424 33.2898 45.2426 33.9556 44.0054 34.7545C43.7305 34.8877 43.3181 35.154 43.0432 35.2871C42.7682 35.4203 42.3558 35.6866 42.0809 35.8198C41.8059 35.9529 41.3935 36.2192 41.1186 36.3524C40.8437 36.4856 40.4313 36.6187 40.1563 36.885L39.6065 37.1513C39.3315 37.2845 39.1941 37.4177 38.9191 37.4177L38.6442 37.5508H38.5067C38.5067 37.5508 38.6442 37.4177 38.6442 37.5508L38.5067 37.684C38.3693 37.8171 38.0943 37.8171 37.9569 37.9503C37.1321 38.3498 36.3073 38.7492 35.6199 39.1487C33.9703 39.9477 32.3207 40.8798 30.5336 41.8119C28.7465 42.744 26.9595 43.8092 25.3099 45.1408C24.76 45.5403 24.2101 45.9398 23.6603 46.3392C22.698 47.1382 21.7357 47.9371 20.7734 48.8692C20.7734 49.0024 20.9109 49.1355 20.9109 49.1355C20.9109 49.1355 20.9109 49.2687 21.0484 49.2687C21.0484 49.2687 21.0484 49.4019 21.1858 49.4019L21.3233 49.535C21.4608 49.6682 21.4608 49.8013 21.4608 49.8013L21.5982 50.0676L22.1481 51.1329C22.2856 51.3992 22.423 51.6655 22.5605 51.7987V51.9318L22.8354 52.5976C23.2479 53.3966 23.5228 54.1955 23.7977 55.1276C24.0727 55.9266 24.2101 56.7255 24.3476 57.5245V57.6576C24.4851 58.4566 24.6225 59.1224 24.6225 59.9213C24.6225 60.0545 24.6225 60.3208 24.6225 60.4539C24.76 60.3208 24.8975 60.3208 25.0349 60.1876C25.3099 60.0545 25.7223 59.7881 25.9972 59.655C26.1347 59.5218 25.8597 59.7882 25.8597 59.7882H25.9972L26.1347 59.655L26.4096 59.5218C26.5471 59.3887 26.822 59.2555 26.9595 59.1224C27.0969 58.9892 27.0969 58.9892 27.2344 58.9892L27.5093 58.856C27.6468 58.7229 27.7843 58.7229 27.9217 58.5897C29.2964 57.9239 30.8086 57.125 32.4582 56.3261C34.1078 55.5271 35.7574 54.595 37.407 53.6629C39.1941 52.7308 40.8437 51.6655 42.6308 50.4671C43.4556 49.9345 44.4178 49.2687 45.2426 48.6029C45.5176 48.4697 45.655 48.3366 45.93 48.0703L46.0674 47.9371C45.93 47.9371 46.2049 47.804 46.2049 47.804L46.4798 47.5376C46.6173 47.4045 46.8922 47.2713 47.0297 47.005C47.1672 46.8719 47.4421 46.6055 47.5796 46.4724C47.992 46.0729 48.4044 45.6734 48.8168 45.274C49.2292 44.8745 49.5041 44.475 49.9165 44.0755C50.1915 43.6761 50.6039 43.2766 50.8788 42.8771C51.1537 42.4777 51.4287 42.0782 51.8411 41.6787C52.9408 39.9477 53.9031 38.2166 54.4529 36.4856C55.0028 34.7545 55.2778 33.0235 55.1403 31.5587C55.0028 31.2924 55.0028 30.8929 55.0028 30.4935Z" />
+                        <path
+                            d="M19.8143 58.5892C19.6769 57.9234 19.5394 57.2576 19.2645 56.5918C18.9895 55.926 18.8521 55.2602 18.4397 54.4613L18.1647 53.9287C18.0273 53.7955 17.8898 53.5292 17.8898 53.2629C17.8898 53.2629 17.8898 53.2629 17.8898 53.1297C17.7523 52.8634 17.6149 52.5971 17.4774 52.3308V52.1976V52.0645C17.4774 52.0645 17.2025 51.7981 17.3399 51.9313L17.2025 51.665C17.065 51.5318 17.065 51.2655 16.9275 51.1324C16.7901 50.7329 16.5151 50.4666 16.3776 50.0671C16.1027 49.4013 15.6903 48.6024 15.4154 47.9366V47.8034C14.8655 46.2055 14.3156 44.4745 14.0407 42.8766C13.7658 41.1455 13.6283 39.4145 13.6283 37.8166C13.6283 36.2187 13.9032 34.6208 14.1782 33.0229C14.4531 31.9577 14.8655 30.8924 15.2779 29.8271C15.6903 29.0282 16.1027 28.2292 16.5151 27.4303C17.065 26.4982 17.7523 25.5661 18.4397 24.7671C19.4019 23.5687 20.3642 22.5035 21.4639 21.5714C21.7389 21.305 22.0138 21.1719 22.1513 20.9056C22.4262 20.6393 22.5637 20.5061 22.8386 20.2398C23.251 19.8403 23.8009 19.4408 24.2133 19.1745C25.8629 17.8429 26.9626 17.044 26.9626 17.044C26.9626 17.044 26.8252 17.044 26.4128 16.9108C26.2753 16.9108 26.1378 16.9108 26.0004 16.9108C25.4505 16.7777 24.4882 16.7777 23.3885 16.6445C22.8386 16.6445 22.1513 16.6445 21.4639 16.6445C20.7766 16.6445 20.0893 16.7777 19.2645 16.9108C17.6149 17.1772 15.8278 17.5766 13.9032 18.5087C11.9787 19.3077 9.91668 20.5061 8.12961 22.104C6.20506 23.7019 4.55545 25.8324 3.18078 28.2292C1.80611 30.6261 0.843835 33.4224 0.431433 36.2187C-0.118437 39.015 -0.118437 41.9445 0.293966 44.7408C0.706368 47.5371 1.53117 50.3334 2.63091 52.8634C3.18078 54.195 3.86812 55.3934 4.69292 56.5918C4.55545 57.2576 4.96786 57.7902 5.38026 58.3229C5.65519 58.5892 5.79266 58.8555 6.0676 59.1218L6.34253 59.5213L6.48 59.6544C6.48 59.7876 6.34253 59.5213 6.34253 59.5213L6.48 59.6544L6.75493 59.9208C6.75493 59.9208 6.75493 59.9208 6.8924 60.0539L7.02987 60.1871C7.3048 60.4534 7.44227 60.7197 7.57974 60.986C7.7172 61.2523 7.99214 61.5187 8.12961 61.785C8.12961 61.9181 8.26707 61.9181 8.26707 62.0513C8.40454 62.3176 8.54201 62.5839 8.67948 62.7171C8.95441 63.3829 9.36681 64.0487 9.64175 64.8476C9.77921 65.2471 9.91668 65.5134 10.0541 65.9129C10.0541 66.046 10.1916 66.3123 10.1916 66.4455L10.4666 66.9781V67.1113C10.4666 67.1113 10.4666 67.2444 10.4666 66.9781V67.1113C10.879 68.0434 11.1539 69.2418 11.1539 70.3071C11.1539 70.8397 11.1539 71.3723 11.0164 71.9049C10.879 72.4376 10.7415 72.8371 10.604 73.2365C10.4666 73.3697 10.4666 73.3697 10.4666 73.5028C10.0541 74.1686 9.64175 74.7013 9.22934 75.1007C8.81694 75.5002 8.54201 75.6334 8.54201 75.6334C8.54201 75.6334 8.67948 75.6334 8.81694 75.7665C8.95441 75.7665 9.09188 75.8997 9.50428 75.8997C10.0541 76.0328 10.7415 76.0328 11.7038 75.8997C11.9787 75.8997 12.2536 75.7665 12.5286 75.7665C13.2159 75.6334 13.9032 75.2339 14.5906 74.8344C15.2779 74.4349 15.9652 73.7692 16.6526 73.1034C17.8898 71.6386 19.127 69.7744 19.6769 67.2444V67.1113C19.6769 66.9781 19.6769 67.1113 19.6769 66.9781V66.845L19.8143 66.4455C19.8143 66.1792 19.9518 65.9129 19.9518 65.6465C20.0893 65.1139 20.0893 64.5813 20.0893 64.0486C20.2267 62.9834 20.2267 61.785 20.0893 60.5866C19.9518 59.9208 19.8143 59.255 19.8143 58.5892Z"
+                            fill="#BB976D" />
+                    </svg>
+                </div>
+                <h4 class="text-[#3C474E] mt-5 sm:mt-7" data-aos="fade-up" data-aos-delay="100">Minimal Furniture
+                    eCommerce HTML Template</h4>
+                <div class="flex gap-8 justify-center mt-8 sm:mt-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="">
+                        <span
+                            class="inline-block text-5xl lg:text-7xl text-primary font-extralight leading-none">06</span>
+                        <h4 class="font-normal leading-none mt-[10px] sm:mt-3 text-[#3C474E]">Home Page</h4>
+                    </div>
+                    <svg class="w-8 sm:w-[50px] lg:w-[62px]" viewBox="0 0 62 101" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <line x1="60.2572" y1="1.02899" x2="1.02899" y2="99.7428" stroke="#BB976D" stroke-width="1.5"
+                            stroke-linecap="round" />
+                    </svg>
+                    <div class="">
+                        <span
+                            class="flex items-center text-5xl lg:text-7xl text-primary font-extralight leading-none">30
+                            <sup>+</sup></span>
+                        <h4 class="font-normal leading-none mt-[10px] sm:mt-3 text-[#3C474E]">Inner Pages</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner Area End -->
+
+    <!-- Home Page Start -->
+    <div class="s-py-100-50 overflow-hidden" id="demos" data-aos="fade-up">
+        <div class="container">
+            <div class="text-center flex flex-col justify-center">
+                <span
+                    class="block text-[60px] sm:text-[70px] md:text-[100px] lg:text-[150px] text-title dark:text-white text-opacity-[0.03] dark:text-opacity-[0.03] font-bold leading-none -mb-12 lg:-mb-16 whitespace-nowrap">HOME
+                    PAGE</span>
+                <h3 class="leading-none md:leading-none text-2xl md:text-3xl">06 Different Home Page</h3>
+                <div class="w-24 h-[1px] bg-primary mx-auto mt-6"></div>
+            </div>
+        </div>
+    </div>
+    <div class="s-py-100 bg-[#F7F8FA] dark:bg-dark-secondary">
+        <div class="container">
+            <div class="max-w-[1345px] mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-[30px] xl:gap-12"
+                data-aos="fade-up" data-aos-delay="100">
+                <div class="group">
+                    <div class="relative bg-white dark:bg-title single-demo-item p-[10px] md:p-5">
+                        <div
+                            class="relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:z-10 before:bg-title before:bg-opacity-0 before:duration-300 group-hover:before:bg-opacity-70">
+                            <img class="w-full" src="./img/demo-page/home-page/home-01.jpg" alt="home-page">
+                            <a href="home-v1.html"
+                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-45 duration-500 z-20 group-hover:rotate-0 opacity-0 group-hover:opacity-100">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26" r="25.5" stroke="white" />
+                                    <path
+                                        d="M39.6782 25.5536L33.346 19.2214C33.1185 18.9557 32.7188 18.9248 32.4532 19.1523C32.1875 19.3798 32.1566 19.7795 32.3841 20.0451C32.4053 20.0699 32.4284 20.093 32.4532 20.1142L37.7026 25.37H12.6332C12.2835 25.37 12 25.6535 12 26.0032C12 26.353 12.2835 26.6364 12.6332 26.6364H37.7026L32.4532 31.8858C32.1875 32.1133 32.1566 32.513 32.3841 32.7786C32.6116 33.0443 33.0113 33.0752 33.2769 32.8477C33.3017 32.8265 33.3248 32.8034 33.346 32.7786L39.6783 26.4464C39.9237 26.1995 39.9237 25.8006 39.6782 25.5536Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="text-center text-lg sm:text-xl text-title dark:text-white mt-4 md:mt-7 duration-300 group-hover:text-primary block"
+                        href="home-v1.html">Home Minimal</a>
+                </div>
+                <div class="group">
+                    <div class="relative bg-white dark:bg-title single-demo-item p-[10px] md:p-5">
+                        <div
+                            class="relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:z-10 before:bg-title before:bg-opacity-0 before:duration-300 group-hover:before:bg-opacity-70">
+                            <img class="w-full" src="./img/demo-page/home-page/home-02.jpg" alt="home-page">
+                            <a href="home-v2.html"
+                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-45 duration-500 z-20 group-hover:rotate-0 opacity-0 group-hover:opacity-100">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26" r="25.5" stroke="white" />
+                                    <path
+                                        d="M39.6782 25.5536L33.346 19.2214C33.1185 18.9557 32.7188 18.9248 32.4532 19.1523C32.1875 19.3798 32.1566 19.7795 32.3841 20.0451C32.4053 20.0699 32.4284 20.093 32.4532 20.1142L37.7026 25.37H12.6332C12.2835 25.37 12 25.6535 12 26.0032C12 26.353 12.2835 26.6364 12.6332 26.6364H37.7026L32.4532 31.8858C32.1875 32.1133 32.1566 32.513 32.3841 32.7786C32.6116 33.0443 33.0113 33.0752 33.2769 32.8477C33.3017 32.8265 33.3248 32.8034 33.346 32.7786L39.6783 26.4464C39.9237 26.1995 39.9237 25.8006 39.6782 25.5536Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="text-center text-lg sm:text-xl text-title dark:text-white mt-4 md:mt-7 duration-300 group-hover:text-primary block"
+                        href="home-v2.html">Home Stylish</a>
+                </div>
+                <div class="group">
+                    <div class="relative bg-white dark:bg-title single-demo-item p-[10px] md:p-5">
+                        <div
+                            class="relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:z-10 before:bg-title before:bg-opacity-0 before:duration-300 group-hover:before:bg-opacity-70">
+                            <img class="w-full" src="./img/demo-page/home-page/home-03.jpg" alt="home-page">
+                            <a href="home-v3.html"
+                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-45 duration-500 z-20 group-hover:rotate-0 opacity-0 group-hover:opacity-100">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26" r="25.5" stroke="white" />
+                                    <path
+                                        d="M39.6782 25.5536L33.346 19.2214C33.1185 18.9557 32.7188 18.9248 32.4532 19.1523C32.1875 19.3798 32.1566 19.7795 32.3841 20.0451C32.4053 20.0699 32.4284 20.093 32.4532 20.1142L37.7026 25.37H12.6332C12.2835 25.37 12 25.6535 12 26.0032C12 26.353 12.2835 26.6364 12.6332 26.6364H37.7026L32.4532 31.8858C32.1875 32.1133 32.1566 32.513 32.3841 32.7786C32.6116 33.0443 33.0113 33.0752 33.2769 32.8477C33.3017 32.8265 33.3248 32.8034 33.346 32.7786L39.6783 26.4464C39.9237 26.1995 39.9237 25.8006 39.6782 25.5536Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="text-center text-lg sm:text-xl text-title dark:text-white mt-4 md:mt-7 duration-300 group-hover:text-primary block"
+                        href="home-v3.html">Home Accessories</a>
+                </div>
+                <div class="group">
+                    <div class="relative bg-white dark:bg-title single-demo-item p-[10px] md:p-5">
+                        <div
+                            class="relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:z-10 before:bg-title before:bg-opacity-0 before:duration-300 group-hover:before:bg-opacity-70">
+                            <img class="w-full" src="./img/demo-page/home-page/home-04.jpg" alt="home-page">
+                            <a href="home-v4.html"
+                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-45 duration-500 z-20 group-hover:rotate-0 opacity-0 group-hover:opacity-100">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26" r="25.5" stroke="white" />
+                                    <path
+                                        d="M39.6782 25.5536L33.346 19.2214C33.1185 18.9557 32.7188 18.9248 32.4532 19.1523C32.1875 19.3798 32.1566 19.7795 32.3841 20.0451C32.4053 20.0699 32.4284 20.093 32.4532 20.1142L37.7026 25.37H12.6332C12.2835 25.37 12 25.6535 12 26.0032C12 26.353 12.2835 26.6364 12.6332 26.6364H37.7026L32.4532 31.8858C32.1875 32.1133 32.1566 32.513 32.3841 32.7786C32.6116 33.0443 33.0113 33.0752 33.2769 32.8477C33.3017 32.8265 33.3248 32.8034 33.346 32.7786L39.6783 26.4464C39.9237 26.1995 39.9237 25.8006 39.6782 25.5536Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="text-center text-lg sm:text-xl text-title dark:text-white mt-4 md:mt-7 duration-300 group-hover:text-primary block"
+                        href="home-v4.html">Home Collection</a>
+                </div>
+                <div class="group">
+                    <div class="relative bg-white dark:bg-title single-demo-item p-[10px] md:p-5">
+                        <div
+                            class="relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:z-10 before:bg-title before:bg-opacity-0 before:duration-300 group-hover:before:bg-opacity-70">
+                            <img class="w-full" src="./img/demo-page/home-page/home-05.jpg" alt="home-page">
+                            <a href="home-v5.html"
+                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-45 duration-500 z-20 group-hover:rotate-0 opacity-0 group-hover:opacity-100">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26" r="25.5" stroke="white" />
+                                    <path
+                                        d="M39.6782 25.5536L33.346 19.2214C33.1185 18.9557 32.7188 18.9248 32.4532 19.1523C32.1875 19.3798 32.1566 19.7795 32.3841 20.0451C32.4053 20.0699 32.4284 20.093 32.4532 20.1142L37.7026 25.37H12.6332C12.2835 25.37 12 25.6535 12 26.0032C12 26.353 12.2835 26.6364 12.6332 26.6364H37.7026L32.4532 31.8858C32.1875 32.1133 32.1566 32.513 32.3841 32.7786C32.6116 33.0443 33.0113 33.0752 33.2769 32.8477C33.3017 32.8265 33.3248 32.8034 33.346 32.7786L39.6783 26.4464C39.9237 26.1995 39.9237 25.8006 39.6782 25.5536Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="text-center text-lg sm:text-xl text-title dark:text-white mt-4 md:mt-7 duration-300 group-hover:text-primary block"
+                        href="home-v5.html">Home Luxury</a>
+                </div>
+                <div class="group">
+                    <div class="relative bg-white dark:bg-title single-demo-item p-[10px] md:p-5">
+                        <div
+                            class="relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:z-10 before:bg-title before:bg-opacity-0 before:duration-300 group-hover:before:bg-opacity-70">
+                            <img class="w-full" src="./img/demo-page/home-page/home-06.jpg" alt="home-page">
+                            <a href="home-v6.html"
+                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-45 duration-500 z-20 group-hover:rotate-0 opacity-0 group-hover:opacity-100">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="26" cy="26" r="25.5" stroke="white" />
+                                    <path
+                                        d="M39.6782 25.5536L33.346 19.2214C33.1185 18.9557 32.7188 18.9248 32.4532 19.1523C32.1875 19.3798 32.1566 19.7795 32.3841 20.0451C32.4053 20.0699 32.4284 20.093 32.4532 20.1142L37.7026 25.37H12.6332C12.2835 25.37 12 25.6535 12 26.0032C12 26.353 12.2835 26.6364 12.6332 26.6364H37.7026L32.4532 31.8858C32.1875 32.1133 32.1566 32.513 32.3841 32.7786C32.6116 33.0443 33.0113 33.0752 33.2769 32.8477C33.3017 32.8265 33.3248 32.8034 33.346 32.7786L39.6783 26.4464C39.9237 26.1995 39.9237 25.8006 39.6782 25.5536Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="text-center text-lg sm:text-xl text-title dark:text-white mt-4 md:mt-7 duration-300 group-hover:text-primary block"
+                        href="home-v6.html">Home Retro</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home Page End -->
+
+    <!-- Inner Pages Start -->
+    <div class="s-py-100 overflow-hidden relative z-[1]" id="pages">
+        <img class="dark:opacity-10 absolute top-[5%] left-0 z-[-1] w-1/2 xl:w-auto"
+            src="./img/demo-page/inner-page/shape-01.png" alt="shape">
+        <img class="dark:opacity-10 absolute top-[30%] right-0 z-[-1] w-1/2 xl:w-auto"
+            src="./img/demo-page/inner-page/shape-02.png" alt="shape">
+        <img class="dark:opacity-10 absolute bottom-0 left-0 z-[-1] w-1/2 xl:w-auto"
+            src="./img/demo-page/inner-page/shape-03.png" alt="shape">
+        <div class="container">
+            <div class="text-center flex flex-col justify-center mb-10 md:mb-12" data-aos="fade-up">
+                <span
+                    class="block text-[60px] sm:text-[70px] md:text-[100px] lg:text-[150px] text-title dark:text-white text-opacity-[0.03] dark:text-opacity-[0.03] font-bold leading-none -mb-12 lg:-mb-16 whitespace-nowrap">INNER
+                    PAGE</span>
+                <h3 class="leading-none md:leading-none text-2xl md:text-3xl">30+ Different Inner Page</h3>
+                <div class="w-24 h-[1px] bg-primary mx-auto mt-6"></div>
+            </div>
+            <div class="max-w-1366 mx-auto grid grid-cols-2 lg:grid-cols-3 gap-5 md:gap-[30px]" data-aos="fade-up"
+                data-aos-delay="100">
+                <a href="about.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-01.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">About</span>
+                </a>
+                <a href="contact.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-02.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Contact</span>
+                </a>
+                <a href="team.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-03.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Team</span>
+                </a>
+                <a href="protfolio-v1.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-04.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Protfolio
+                        - 01</span>
+                </a>
+                <a href="protfolio-v2.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-05.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Protfolio
+                        - 02</span>
+                </a>
+                <a href="protfolio-v3.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-06.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Protfolio
+                        - 03</span>
+                </a>
+                <a href="shop-v1.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-07.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Shop
+                        - 01</span>
+                </a>
+                <a href="shop-v2.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-08.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Shop
+                        - 02</span>
+                </a>
+                <a href="shop-v3.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-09.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Shop
+                        - 03</span>
+                </a>
+                <a href="shop-v4.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-10.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Shop
+                        - 04</span>
+                </a>
+                <a href="our-clients.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-11.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Clients</span>
+                </a>
+                <a href="faq.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-12.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">FAQs</span>
+                </a>
+                <a href="product-details.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-13.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Product
+                        Details</span>
+                </a>
+                <a href="cart.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-14.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Cart</span>
+                </a>
+                <a href="checkout.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-15.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Checkout</span>
+                </a>
+                <a href="my-profile.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-16.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">My
+                        Profile</span>
+                </a>
+                <a href="pricing.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-17.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Price
+                        Plan</span>
+                </a>
+                <a href="blog-v1.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-18.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Blog
+                        - 01</span>
+                </a>
+                <a href="blog-v2.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-19.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Blog
+                        - 02</span>
+                </a>
+                <a href="blog-details-v1.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-20.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Blog
+                        Details 01</span>
+                </a>
+                <a href="blog-details-v2.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-21.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Blog
+                        Details 02</span>
+                </a>
+                <a href="blog-details-v3.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-22.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Blog
+                        Details 03</span>
+                </a>
+                <a href="payment-method.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-23.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Payment
+                        Method</span>
+                </a>
+                <a href="shipping-method.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-24.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Shipping
+                        Method</span>
+                </a>
+                <a href="terms-and-conditions.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-25.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Terms
+                        & Conditions</span>
+                </a>
+                <a href="forger-password.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-26.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Forget
+                        Password</span>
+                </a>
+                <a href="login.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-27.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Login</span>
+                </a>
+                <a href="register.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-28.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Register</span>
+                </a>
+                <a href="error.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-29.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Error</span>
+                </a>
+                <a href="coming-soon.html" class="group">
+                    <div class="single-demo-item rounded-[10px] overflow-hidden">
+                        <img class="w-full transform scale-100 duration-300 object-cover group-hover:scale-110"
+                            src="./img/demo-page/inner-page/inner-page-30.jpg" alt="inner-page">
+                    </div>
+                    <span
+                        class="text-center text-lg text-title dark:text-white mt-4 md:mt-5 duration-300 group-hover:text-primary block">Coming
+                        Soon</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Inner Pages End -->
+
+    <!-- Feature Area Start -->
+    <div class="s-pb-100" id="features">
+        <div class="container">
+            <div class="text-center flex flex-col justify-center mb-10 md:mb-12" data-aos="fade-up">
+                <span
+                    class="block text-[60px] sm:text-[70px] md:text-[100px] lg:text-[150px] text-title dark:text-white text-opacity-[0.03] dark:text-opacity-[0.03] font-bold leading-none -mb-12 lg:-mb-16 whitespace-nowrap">FEATURES</span>
+                <h3 class="leading-none md:leading-none text-2xl md:text-3xl">Awesome Features</h3>
+                <div class="w-24 h-[1px] bg-primary mx-auto mt-6"></div>
+            </div>
+            <div class="max-w-1366 mx-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[30px] lg:gap-x-12 gap-y-[30px] md:gap-y-12"
+                data-aos="fade-up" data-aos-delay="100">
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10" src="./img/demo-page/feature/feature-01.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">HTML5</h5>
+                    <p class="mt-[10px]">HTML stands for Hypertext Markup Language. It is the most basic language, and
+                        simple
+                        to learn and modify. It is a combination of both hypertext and markup language. It
+                        contains the elements that can change/develop a web page’s look and the displayed
+                        contents.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10" src="./img/demo-page/feature/feature-02.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">CSS3</h5>
+                    <p class="mt-[10px]">CSS (Cascading Style Sheets) is used to style and lay out web pages — for
+                        example, to
+                        alter the font, color, size, and spacing of your content, split it into multiple columns, or
+                        add animations and other decorative features.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10" src="./img/demo-page/feature/feature-08.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">Build with SCSS</h5>
+                    <p class="mt-[10px]">SASS can help you create a more organized and efficient codebase for your HTML
+                        template. SASS is a powerful preprocessor that extends the capabilities of CSS, making
+                        it easier to write and maintain complex stylesheets.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-[60px] p-2" src="./img/demo-page/feature/tailwind-icon.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">Tailwind CSS</h5>
+                    <p class="mt-[10px]">Tailwind CSS is a powerful and flexible CSS framework that can help you save
+                        time and achieve a consistent, responsive design for your HTML templates. It offers a wide range
+                        of pre-designed classes to make styling your HTML templates fast and easy.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10 dark:hidden" src="./img/demo-page/feature/google-font-black.png" alt="feature">
+                    <img class="w-10 hidden dark:block" src="./img/demo-page/feature/google-font.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">Google Fonts</h5>
+                    <p class="mt-[10px]">Google Fonts is a library of 1,442 open-source font families and APIs. Using
+                        Google
+                        Fonts in your HTML template can improve the visual appeal and performance of your
+                        website, while also making it easy to find and implement high-quality typography.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10 dark:hidden" src="./img/demo-page/feature/dark-light-black.png" alt="feature">
+                    <img class="w-10 hidden dark:block" src="./img/demo-page/feature/dark-light.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">Dark and light version</h5>
+                    <p class="mt-[10px]">A dark and light version HTML template refers to a website template that has
+                        two
+                        different color schemes - one with a light background and dark text, and the other with a
+                        dark background and light text.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10 dark:hidden" src="./img/demo-page/feature/minimal-design-black.png" alt="feature">
+                    <img class="w-10 hidden dark:block" src="./img/demo-page/feature/minimal-design.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">Minimal design</h5>
+                    <p class="mt-[10px]">A minimal design in an HTML template is a great choice for websites that need
+                        to
+                        convey information clearly and efficiently. It can help to create a professional and
+                        modern look that is easy to navigate and understand.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10 dark:hidden" src="./img/demo-page/feature/ecommerce-black.png" alt="feature">
+                    <img class="w-10 hidden dark:block" src="./img/demo-page/feature/ecommerce.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">E-commerce support</h5>
+                    <p class="mt-[10px]">E-commerce support in an HTML template can help you quickly set up an online
+                        store
+                        without having to build all of the functionality from scratch. It can save you time and
+                        effort, allowing you to focus on creating a great user experience for your customers.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10 dark:hidden" src="./img/demo-page/feature/well-document-black.png" alt="feature">
+                    <img class="w-10 hidden dark:block" src="./img/demo-page/feature/well-document.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">Well Documentation</h5>
+                    <p class="mt-[10px]">Well-documentation is crucial for helping users understand how to use an HTML
+                        template effectively. It can save users time and effort by providing clear and concise
+                        instructions, allowing them to focus on creating a great website rather than struggling
+                        with the template</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-[70px] p-2" src="./img/demo-page/feature/feature-09.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">W3 Validated</h5>
+                    <p class="mt-[10px]">This web standards body creates coding specifications for web standards
+                        worldwide. It
+                        also offers a validator service to ensure that your HTML (among other code) is valid and
+                        error-free.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10 dark:hidden" src="./img/demo-page/feature/responsive-black.png" alt="feature">
+                    <img class="w-10 hidden dark:block" src="./img/demo-page/feature/responsive.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">Responsive Design</h5>
+                    <p class="mt-[10px]">This template is fully responsive, we tested it very carefully the template on
+                        every
+                        device like laptops, tablets, and phones screens. All elements are 100% responsive and
+                        ready for all devices.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10" src="./img/demo-page/feature/feature-07.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">Browser Compatability</h5>
+                    <p class="mt-[10px]">Browser compatibility refers to the ability of a website or web application to
+                        function
+                        properly across different web browsers and devices. This layout and design are very
+                        flexible, and it is compatible with a variety of browsers.</p>
+                </div>
+                <div class="flex items-center justify-start flex-col text-center">
+                    <img class="w-10 dark:hidden" src="./img/demo-page/feature/support-black.png" alt="feature">
+                    <img class="w-10 hidden dark:block" src="./img/demo-page/feature/support.png" alt="feature">
+                    <h5 class="font-medium text-xl leading-none mt-5">Dedicated Support</h5>
+                    <p class="mt-[10px]">We provide support to our customers promptly. Usually, we use our email inbox
+                        to
+                        provide support. Whenever you have questions or issues about our product, feel free to
+                        ask. We are ready to solve your issues. We are ready to provide support:
+                        support@electronthemes.com. Pre-sale questions are welcomed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Area End -->
+
+    <!-- Support Area Star -->
+    <div class="grid lg:grid-cols-2">
+        <div class="relative" data-aos="fade-up">
+            <img class="w-full" src="./img/demo-page/support-01.jpg" alt="Support">
+            <div
+                class="max-w-[450px] absolute top-1/2 transform left-0 lg:left-auto lg:right-[100px] -translate-y-1/2 z-10 p-6">
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white ">Boost your Sale & Make Modern
+                    Online Shop</h2>
+                <a target="_blank" href="https://electronthemes.com/products/furnixar-html"
+                    class="btn btn-white-solid mt-5 sm:mt-6" data-text="Purchase Now">
+                    <span>Purchase Now</span>
+                </a>
+            </div>
+        </div>
+        <div class="relative" data-aos="fade-up" data-aos-delay="100">
+            <img class="w-full object-cover h-[350px] sm:h-auto" src="./img/demo-page/support-02.jpg" alt="Support">
+            <div class="max-w-[450px] absolute top-1/2 transform left-0 lg:left-[100px] -translate-y-1/2 z-10 p-6">
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white ">Support Team 24/7</h2>
+                <p class="mt-2 sm:mt-3 text-[#eaeaea]">We do our best to provide prompt and qualified support for our
+                    clients. If you have any questions about this template, feel free to contact us anytime at our
+                    official support system to get help within 24 hours.</p>
+                <a target="_blank" href="https://electronthemes.com/contact" class="btn btn-white-solid mt-3 sm:mt-6"
+                    data-text="Contact Us">
+                    <span>Contact Us</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Support Area End -->
+
+    <!-- copy right -->
+    <div class="py-5 md:py-[30px] bg-[#F8F5F0] dark:bg-dark-secondary">
+        <div class="contaienr">
+            <p class="text-center">Copyright © 2022 <a target="_blank"
+                    href="https://html.electronthemes.com">electronthemes</a>. All
+                Right Reserved.</p>
+        </div>
+    </div>
+
+    <!-- Preloader Start-->
+    <div
+        class="preloader-wrapper w-full h-screen fixed bg-white dark:bg-title flex items-center justify-center z-[999999] top-0 left-0">
+        <div class="preloader w-24 h-24">
+            <div class="preloader__ring">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+                    y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                    <path
+                        d="M85.5,42c-0.2-0.8-0.5-1.7-0.8-2.5c-0.3-0.9-0.7-1.6-1-2.3c-0.3-0.7-0.6-1.3-1-1.9c0.3,0.5,0.5,1.1,0.8,1.7  c0.2,0.7,0.6,1.5,0.8,2.3s0.5,1.7,0.8,2.5c0.8,3.5,1.3,7.5,0.8,12c-0.4,4.3-1.8,9-4.2,13.4c-2.4,4.2-5.9,8.2-10.5,11.2  c-1.1,0.7-2.2,1.5-3.4,2c-0.5,0.2-1.2,0.6-1.8,0.8s-1.3,0.5-1.9,0.8c-2.6,1-5.3,1.7-8.1,1.8l-1.1,0.1L53.8,84c-0.7,0-1.4,0-2.1,0  c-1.4-0.1-2.9-0.1-4.2-0.5c-1.4-0.1-2.8-0.6-4.1-0.8c-1.4-0.5-2.7-0.9-3.9-1.5c-1.2-0.6-2.4-1.2-3.7-1.9c-0.6-0.3-1.2-0.7-1.7-1.1  l-0.8-0.6c-0.3-0.1-0.6-0.4-0.8-0.6l-0.8-0.6L31.3,76l-0.2-0.2L31,75.7l-0.1-0.1l0,0l-1.5-1.5c-1.2-1-1.9-2.1-2.7-3.1  c-0.4-0.4-0.7-1.1-1.1-1.7l-1.1-1.7c-0.3-0.6-0.6-1.2-0.9-1.8c-0.2-0.5-0.6-1.2-0.8-1.8c-0.4-1.2-1-2.4-1.2-3.7  c-0.2-0.6-0.4-1.2-0.5-1.9c-0.1-0.6-0.2-1.2-0.3-1.8c-0.3-1.2-0.3-2.4-0.4-3.7c-0.1-1.2,0-2.5,0.1-3.7c0.2-1.2,0.3-2.4,0.6-3.5  c0.1-0.6,0.3-1.1,0.4-1.7l0.1-0.8l0.3-0.8c1.5-4.3,3.8-8,6.5-11c0.8-0.8,1.4-1.5,2.1-2.1c0.9-0.9,1.4-1.3,2.2-1.8  c1.4-1.2,2.9-2,4.3-2.8c2.8-1.5,5.5-2.3,7.7-2.8s4-0.7,5.2-0.6c0.6-0.1,1.1,0,1.4,0s0.4,0,0.4,0h0.1c2.7,0.1,5-2.2,5-5  c0.1-2.7-2.2-5-5-5c-0.2,0-0.2,0-0.3,0c0,0-0.2,0.1-0.6,0.1c-0.4,0-1,0-1.8,0.1c-1.6,0.1-4,0.4-6.9,1.2c-2.9,0.8-6.4,2-9.9,4.1  c-1.8,1-3.6,2.3-5.4,3.8C26,21.4,25,22.2,24.4,23c-0.2,0.2-0.4,0.4-0.6,0.6c-0.2,0.2-0.5,0.4-0.6,0.7c-0.5,0.4-0.8,0.9-1.3,1.4  c-3.2,3.9-5.9,8.8-7.5,14.3l-0.3,1l-0.2,1.1c-0.1,0.7-0.3,1.4-0.4,2.1c-0.3,1.5-0.4,2.9-0.5,4.5c0,1.5-0.1,3,0.1,4.5  c0.2,1.5,0.2,3,0.6,4.6c0.1,0.7,0.3,1.5,0.4,2.3c0.2,0.8,0.5,1.5,0.7,2.3c0.4,1.6,1.1,3,1.7,4.4c0.3,0.7,0.7,1.4,1.1,2.1  c0.4,0.8,0.8,1.4,1.2,2.1c0.5,0.7,0.9,1.4,1.4,2s0.9,1.3,1.5,1.9c1.1,1.3,2.2,2.7,3.3,3.5l1.7,1.6c0,0,0.1,0.1,0.1,0.1c0,0,0,0,0,0  c0,0,0,0,0,0l0.1,0.1l0.1,0.1h0.2l0.5,0.4l1,0.7c0.4,0.2,0.6,0.5,1,0.7l1.1,0.6c0.8,0.4,1.4,0.9,2.1,1.2c1.4,0.7,2.9,1.5,4.4,2  c1.5,0.7,3.1,1,4.6,1.5c1.5,0.3,3.1,0.7,4.7,0.8c1.6,0.2,3.1,0.2,4.7,0.2c0.8,0,1.6-0.1,2.4-0.1l1.2-0.1l1.1-0.1  c3.1-0.4,6.1-1.3,8.9-2.4c0.8-0.3,1.4-0.6,2.1-0.9s1.3-0.7,2-1.1c1.3-0.7,2.6-1.7,3.7-2.5c0.5-0.4,1-0.9,1.6-1.3l0.8-0.6l0.2-0.2  c0,0,0.1-0.1,0.1-0.1c0.1-0.1,0,0,0,0v0.1l0.1-0.1l0.4-0.4c0.5-0.5,1-1,1.5-1.5c0.3-0.3,0.5-0.5,0.8-0.8l0.7-0.8  c0.9-1.1,1.8-2.2,2.5-3.3c0.4-0.6,0.7-1.1,1.1-1.7c0.3-0.7,0.6-1.2,0.9-1.8c2.4-4.9,3.5-9.8,3.7-14.4C87.3,49.7,86.6,45.5,85.5,42z">
+                    </path>
+                </svg>
+            </div>
+            <div class="preloader__ring">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+                    y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                    <path
+                        d="M85.5,42c-0.2-0.8-0.5-1.7-0.8-2.5c-0.3-0.9-0.7-1.6-1-2.3c-0.3-0.7-0.6-1.3-1-1.9c0.3,0.5,0.5,1.1,0.8,1.7  c0.2,0.7,0.6,1.5,0.8,2.3s0.5,1.7,0.8,2.5c0.8,3.5,1.3,7.5,0.8,12c-0.4,4.3-1.8,9-4.2,13.4c-2.4,4.2-5.9,8.2-10.5,11.2  c-1.1,0.7-2.2,1.5-3.4,2c-0.5,0.2-1.2,0.6-1.8,0.8s-1.3,0.5-1.9,0.8c-2.6,1-5.3,1.7-8.1,1.8l-1.1,0.1L53.8,84c-0.7,0-1.4,0-2.1,0  c-1.4-0.1-2.9-0.1-4.2-0.5c-1.4-0.1-2.8-0.6-4.1-0.8c-1.4-0.5-2.7-0.9-3.9-1.5c-1.2-0.6-2.4-1.2-3.7-1.9c-0.6-0.3-1.2-0.7-1.7-1.1  l-0.8-0.6c-0.3-0.1-0.6-0.4-0.8-0.6l-0.8-0.6L31.3,76l-0.2-0.2L31,75.7l-0.1-0.1l0,0l-1.5-1.5c-1.2-1-1.9-2.1-2.7-3.1  c-0.4-0.4-0.7-1.1-1.1-1.7l-1.1-1.7c-0.3-0.6-0.6-1.2-0.9-1.8c-0.2-0.5-0.6-1.2-0.8-1.8c-0.4-1.2-1-2.4-1.2-3.7  c-0.2-0.6-0.4-1.2-0.5-1.9c-0.1-0.6-0.2-1.2-0.3-1.8c-0.3-1.2-0.3-2.4-0.4-3.7c-0.1-1.2,0-2.5,0.1-3.7c0.2-1.2,0.3-2.4,0.6-3.5  c0.1-0.6,0.3-1.1,0.4-1.7l0.1-0.8l0.3-0.8c1.5-4.3,3.8-8,6.5-11c0.8-0.8,1.4-1.5,2.1-2.1c0.9-0.9,1.4-1.3,2.2-1.8  c1.4-1.2,2.9-2,4.3-2.8c2.8-1.5,5.5-2.3,7.7-2.8s4-0.7,5.2-0.6c0.6-0.1,1.1,0,1.4,0s0.4,0,0.4,0h0.1c2.7,0.1,5-2.2,5-5  c0.1-2.7-2.2-5-5-5c-0.2,0-0.2,0-0.3,0c0,0-0.2,0.1-0.6,0.1c-0.4,0-1,0-1.8,0.1c-1.6,0.1-4,0.4-6.9,1.2c-2.9,0.8-6.4,2-9.9,4.1  c-1.8,1-3.6,2.3-5.4,3.8C26,21.4,25,22.2,24.4,23c-0.2,0.2-0.4,0.4-0.6,0.6c-0.2,0.2-0.5,0.4-0.6,0.7c-0.5,0.4-0.8,0.9-1.3,1.4  c-3.2,3.9-5.9,8.8-7.5,14.3l-0.3,1l-0.2,1.1c-0.1,0.7-0.3,1.4-0.4,2.1c-0.3,1.5-0.4,2.9-0.5,4.5c0,1.5-0.1,3,0.1,4.5  c0.2,1.5,0.2,3,0.6,4.6c0.1,0.7,0.3,1.5,0.4,2.3c0.2,0.8,0.5,1.5,0.7,2.3c0.4,1.6,1.1,3,1.7,4.4c0.3,0.7,0.7,1.4,1.1,2.1  c0.4,0.8,0.8,1.4,1.2,2.1c0.5,0.7,0.9,1.4,1.4,2s0.9,1.3,1.5,1.9c1.1,1.3,2.2,2.7,3.3,3.5l1.7,1.6c0,0,0.1,0.1,0.1,0.1c0,0,0,0,0,0  c0,0,0,0,0,0l0.1,0.1l0.1,0.1h0.2l0.5,0.4l1,0.7c0.4,0.2,0.6,0.5,1,0.7l1.1,0.6c0.8,0.4,1.4,0.9,2.1,1.2c1.4,0.7,2.9,1.5,4.4,2  c1.5,0.7,3.1,1,4.6,1.5c1.5,0.3,3.1,0.7,4.7,0.8c1.6,0.2,3.1,0.2,4.7,0.2c0.8,0,1.6-0.1,2.4-0.1l1.2-0.1l1.1-0.1  c3.1-0.4,6.1-1.3,8.9-2.4c0.8-0.3,1.4-0.6,2.1-0.9s1.3-0.7,2-1.1c1.3-0.7,2.6-1.7,3.7-2.5c0.5-0.4,1-0.9,1.6-1.3l0.8-0.6l0.2-0.2  c0,0,0.1-0.1,0.1-0.1c0.1-0.1,0,0,0,0v0.1l0.1-0.1l0.4-0.4c0.5-0.5,1-1,1.5-1.5c0.3-0.3,0.5-0.5,0.8-0.8l0.7-0.8  c0.9-1.1,1.8-2.2,2.5-3.3c0.4-0.6,0.7-1.1,1.1-1.7c0.3-0.7,0.6-1.2,0.9-1.8c2.4-4.9,3.5-9.8,3.7-14.4C87.3,49.7,86.6,45.5,85.5,42z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start-->
+
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
